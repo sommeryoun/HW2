@@ -1,7 +1,17 @@
-# tei-example
-
- 
+<TEI>
+ <teiHeader> 
+	 <fileDesc>
+            <titleStmt>
+               <title>Мулла-Нур</title>
+            </titleStmt>
+            <respStmt>
+                <persName>Анна Новикова</persName>
+                <resp>Создала TEI документ, выделила в тексте прямую речь</resp>
+            </respStmt>
+         </fileDesc>
+</teiHeader>
 <text>
+1.
 <speech>
 <said type="direct" aloud="true">
 -- Жарко, душно в Дербенте! Взойди-ка на кровлю, Касим; посмотри, как падает за горы солнышко: не краснеет ли запад, не сбираются ли тучи на небе?
@@ -14,7 +24,6 @@
 	   </speech>
 
 2.  
-
 <speech> <said type="direct" aloud="true">
 -- Взбеги на кровлю, Касим; погляди, не катится ли туман с гор Лезгистана. Не чернеет ли море, не скачет ли белогривый прибой через камни? </said></speech>
  <speech> <said type="direct" aloud="true">     
@@ -48,3 +57,4 @@
  <said type="direct" aloud="true">  -- Если б пришли три корабля с мышьяком на отраву всем дербентцам, я бы радовался один более, чем теперь они все вместе.</said>
 </speech>
 </text>
+</TEI>
